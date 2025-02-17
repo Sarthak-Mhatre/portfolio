@@ -1,0 +1,247 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #e7eaf6;
+}
+
+/* Header */
+header {
+  background-color: #a2a8d3;
+  color: #222;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.about {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 4px solid #007bff;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  padding: 0 15px;
+}
+
+.head {
+  text-align: left;
+  margin-left: 1.5em;
+  margin-top: 1em;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* Navigation */
+nav ul {
+  margin-left: 15em;
+  list-style: none;
+  padding: 0;
+  text-align: right;
+  margin-top: 2.2em;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #222;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 25px 0;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #5078b4; /* Dark Background */
+  color: #222; /* White Text */
+  border: 1px solid #343a40; /* Darker Border */
+  border-radius: 8px; /* Rounded Corners */
+  padding: 15px;
+  max-width: 80%; /* Adjust width */
+  margin: 20px auto; /* Center Card */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.card-header {
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 1px solid #343a40;
+  font-size: 16px;
+  text-align: left;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #222;
+}
+
+/* Button */
+.btn-primary {
+  background-color: rgb(35, 36, 94);
+  border: 2px solid;
+  border-color: #222;
+  color: #ffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+  border: none;
+  max-width: 200px;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  background-color: #5e88c7; /* Darker Blue */
+}
+
+/* General Form Styling */
+form {
+  max-width: 80%;
+  height: 60%;
+  margin: 5px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mb-3 {
+  padding: 0.5em 0.15em;
+}
+/* Labels */
+.form-label {
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+  margin-right: 1.5em;
+}
+
+/* Input Fields */
+.form-control {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Checkbox Styling */
+.form-check-input {
+  cursor: pointer;
+}
+
+.form-check-label {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Email Help Text */
+.form-text {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+/* Submit Button */
+.btn-primary {
+  border: 2px solid;
+  border-color: #222;
+  width: 100%;
+  background-color: rgb(35, 36, 94);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #5e88c7;
+}
+
+/* footer */
+/* Footer Styling */
+footer {
+  background-color: rgb(46, 46, 52);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Change color on hover */
+}
